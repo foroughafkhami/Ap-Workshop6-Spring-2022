@@ -7,4 +7,9 @@ public class Cheetah extends Mammal implements Hunter{
         System.out.println("name:" + name + " ,age:" + getAge() + " ,speed:" + getSpeed_run() + " ,properties:" + getProperties());
     }
 
+    @Override
+    public void hunt(Prey prey) {
+        System.out.println("Cheetah hunted " + prey.getName() + ".");
+
+    }
 }

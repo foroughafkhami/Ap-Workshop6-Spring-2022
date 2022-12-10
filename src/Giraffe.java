@@ -9,6 +9,9 @@ public class Giraffe extends Mammal implements Prey {
     }
 
 
-
+    @Override
+    public String getName() {
+        return name;
+    }
 
 }
